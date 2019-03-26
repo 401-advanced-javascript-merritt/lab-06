@@ -4,13 +4,13 @@
 ## Lab-06
 ### Author: Chris Merritt
 ### Links and Resources
-* [PR]: http://
+* [PR]: https://github.com/401-advanced-javascript-merritt/lab-06/pull/1
 
 * [front-end] https://codesandbox.io/s/mmqry1y4qx
 
 #### Documentation
 
-* [swagger][]
+* [swagger][https://github.com/401-advanced-javascript-merritt/lab-06/blob/apidocsworking/simple-api/docs/swagger.json]
 
 
 
