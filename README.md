@@ -4,7 +4,7 @@
 ## Lab-06
 ### Author: Chris Merritt
 ### Links and Resources
-* [PR]: https://github.com/401-advanced-javascript-merritt/lab-06/pull/1
+* [Pull Request] https://github.com/401-advanced-javascript-merritt/lab-06/pull/1
 
 * [front-end] https://codesandbox.io/s/mmqry1y4qx
 
