@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "id": 1
+    },
+    {
+      "_id": 1,
+      "name": "Mechanical",
+      "display_name": "Vehicles",
+      "description": "Car parts and stuff",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "TV",
+      "category": "Electronics",
+      "price": 500,
+      "id": 1
+    },
+    {
+      "_id": 2,
+      "category": "Electronics",
+      "name": "Samsung",
+      "display_name": "Samsung TV",
+      "description": "70 inch smart tv",
+      "id": 2
+    },
+    {
+      "_id": 3,
+      "category": "Mechanical",
+      "name": "Toyota",
+      "display_name": "Toyota Prius",
+      "description": "Energy efficient car",
+      "id": 3
+    },
+    {
+      "_id": 4,
+      "category": "Mechanical",
+      "name": "Ford",
+      "display_name": "Ford Focus",
+      "description": "Red car",
+      "id": 5
+    }
+  ]
+}

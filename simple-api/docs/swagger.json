@@ -1,0 +1,171 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Core API",
+    "description": "The worlds funnest little API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/"
+    }
+  ],
+  "paths": {
+    "/categories": {
+      "get": {
+        "description": "Get all categories",
+        "responses": {
+          "200": {
+            "description": "Returned a list of categories",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/getCategories"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "description": "Added values to categories",
+        "responses" : {
+          "200": {
+            "description" : "Post values to categories"
+          }
+        }
+      }
+    },
+    "/categories/1":{
+        "get": {
+          "description": "Returned one value",
+          "responses":{
+            "200": {
+          "description":"get the category at id",
+          "content":{
+            "*/*": {
+              "schema": {
+                "$ref": "#/components/schemas/getOneCategory"
+              }
+            }
+          }
+              
+            }
+          }
+        },
+        "put": {
+        "description": "Added values to categories",
+        "responses" : {
+          "200": {
+            "description" : "Edit value at id"
+          }
+        }
+      },
+      "delete" : {
+        "description":"delete a value",
+        "responses" : {
+          "200": {
+            "description" : "Deleted values"
+          }
+        }
+      }
+    },
+    "/products/": {
+      "get": {
+        "description": "Get all products",
+        "responses": {
+          "200": {
+            "description": "Returned a list of products",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/getProducts"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/products/1":{
+        "get": {
+          "description": "Returned one value",
+          "responses":{
+            "200": {
+          "description":"get the product at id",
+          "content":{
+            "*/*": {
+              "schema": {
+                "$ref": "#/components/schemas/getOneProduct"
+              }
+            }
+          }
+              
+            }
+          }
+        },
+        "put": {
+        "description": "Added values to product",
+        "responses" : {
+          "200": {
+            "description" : "Edit value at id"
+          }
+        }
+      },
+      "delete" : {
+        "description":"delete a value",
+        "responses" : {
+          "200": {
+            "description" : "Deleted value"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "getCategories": {
+        "type": "object",
+        "example": [
+          "{}",
+          "{}"
+        ]
+      },
+      "postCategories" : {
+        "type": "object",
+        "example": [
+          "{}",
+          "{}"
+          ]
+      },
+      "getOneCategory" : {
+        "type" : "object",
+        "example" : [
+          "{}",
+          "{}"
+          ]
+      },
+      "getProducts": {
+        "type" : "object",
+        "example" : [
+          "{}",
+          "{}"
+          ]
+      },
+      "postProduct" : {
+        "type": "object",
+        "example": [
+          "{}",
+          "{}"
+          ]
+      },
+      "getOneProduct" : {
+        "type" : "object",
+        "example" : [
+          "{}",
+          "{}"
+          ]
+      }
+    }
+  }
+}
